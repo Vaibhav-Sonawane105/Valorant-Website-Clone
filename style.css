@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ece8e1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0d0d;
+    padding: 10px 20px;
+    height: 15rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /*Space between logos*/
+}
+
+.riot-logo {
+    height: 4.5rem;
+    padding: 5rem;
+}
+
+.Valo-logo {
+    height: 5rem;
+    padding: 5rem;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff4655;
+}
+
+.nav-link i {
+    color: grey;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover i {
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 2rem;
+    /*Space between icon group and button*/
+}
+
+.icon-group {
+    display: flex;
+    gap: 2.5rem;
+    /*Space between icons*/
+}
+
+.icon-group i {
+    color: white;
+    padding: 1.5rem 1rem;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+.icon-group i:hover {
+    background-color: #2b2a29;
+    border-radius: 28%;
+}
+
+.play-button {
+    background: #e83f47;
+    background: linear-gradient(107deg, rgba(232, 63, 71, 1) 0%, rgba(255, 171, 92, 1) 100%);
+    text-decoration: none;
+    font-size: 2.8rem;
+    letter-spacing: 5px;
+    color: #0d0d0d;
+    font-weight: bold;
+    padding: 1.5rem 2rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.play-button:hover {
+    color: white;
+}
+
+/*Dropdown Menu Styling*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-top: #ff4655 1rem solid;
+    display: none;
+    position: absolute;
+    background-color: #2b2a29;
+    padding: 5rem 10rem;
+    padding-left: 2rem;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    /* Position below the link */
+    left: 0;
+}
+
+.dropdown-content a {
+    color: rgb(177, 176, 176);
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem 10rem;
+    padding-left: 2rem;
+    margin-bottom: 5rem;
+    display: block;
+}
+
+.dropdown-content a:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #898383;
+    color: white;
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Nav-bar Done*/
+
+/*Hero Section Styling*/
+.hero {
+    position: relative;
+    width: 100%;
+    height: 68vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.herovideo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    height: 13rem;
+    width: auto;
+    margin-bottom: 6rem;
+}
+
+.hero-title img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-subtitle {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10rem;
+    text-transform: uppercase;
+}
+
+.button-primary {
+    border: white 2px solid;
+    padding: 8px 8px;
+    margin-bottom: 30rem;
+}
+
+.hero-button {
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 4rem 5rem;
+    font-size: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Hero Section Done*/
+
+/*Letest News Section Styling*/
+.latest-section {
+    margin-top: 80px;
+    padding: 60px 80px;
+    color: #000;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: black;
+}
+
+.view-all-links {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.view-all-links:hover {
+    color: #a3a3a3;
+}
+
+/*News Cards Styling*/
+.news-grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.news-card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-image-container img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.news-card:hover .news-image-container img {
+    transform: scale(1.05);
+    /* Slight zoom on image on hover */
+}
+
+.news-info {
+    padding: 50px;
+}
+
+.news-category {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4655;
+    /* Valorant red for the category */
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.news-date {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.news-title {
+    padding-top: 25px;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.news-description {
+    font-size: 2rem;
+    color: #383838;
+    line-height: 1.5;
+}
