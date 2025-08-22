@@ -11,11 +11,14 @@ body {
 
 .navbar {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     background-color: #0d0d0d;
     padding: 10px 20px;
-    height: 15rem;
+    height: 60px;
+    width: 100%;
+    z-index: 500;
 }
 
 .nav-left {
@@ -26,31 +29,30 @@ body {
 .logo-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     /*Space between logos*/
 }
 
 .riot-logo {
-    height: 4.5rem;
-    padding: 5rem;
+    height: 25px;
 }
 
 .Valo-logo {
-    height: 5rem;
-    padding: 5rem;
+    height: 30px;
+    padding: 10px;
 }
 
 .nav-menu {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 10rem;
+    gap: 4rem;
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 13px;
     font-weight: bold;
     letter-spacing: 1px;
     transition: all 0.3s ease;
@@ -72,21 +74,20 @@ body {
 .nav-right {
     display: flex;
     align-items: center;
-    margin-right: 10px;
-    gap: 2rem;
+    gap: 6px;
     /*Space between icon group and button*/
 }
 
 .icon-group {
     display: flex;
-    gap: 2.5rem;
+    gap: 5px;
     /*Space between icons*/
 }
 
 .icon-group i {
     color: white;
-    padding: 1.5rem 1rem;
-    font-size: 4rem;
+    padding: 0.8rem 0.7rem;
+    font-size: 21px;
     cursor: pointer;
     transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
@@ -100,12 +101,13 @@ body {
     background: #e83f47;
     background: linear-gradient(107deg, rgba(232, 63, 71, 1) 0%, rgba(255, 171, 92, 1) 100%);
     text-decoration: none;
-    font-size: 2.8rem;
-    letter-spacing: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
     color: #0d0d0d;
     font-weight: bold;
-    padding: 1.5rem 2rem;
-    border-radius: 30px;
+    padding: 10px 15px;
+    margin-right: 25px;
+    border-radius: 12px;
     transition: all 0.3s ease;
 }
 
@@ -120,13 +122,13 @@ body {
 }
 
 .dropdown-content {
-    border-top: #ff4655 1rem solid;
+    border-top: #ff4655 8px solid;
     display: none;
     position: absolute;
     background-color: #2b2a29;
-    padding: 5rem 10rem;
-    padding-left: 2rem;
-    min-width: 160px;
+    padding: 1rem 3.2rem;
+    padding-left: 1rem;
+    min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     top: 100%;
@@ -136,11 +138,11 @@ body {
 
 .dropdown-content a {
     color: rgb(177, 176, 176);
-    font-size: 3rem;
+    font-size: 16px;
     text-decoration: none;
-    padding: 1rem 10rem;
-    padding-left: 2rem;
-    margin-bottom: 5rem;
+    padding: 10px 15px;
+    padding-left: 7px;
+    margin-bottom: 1.6rem;
     display: block;
 }
 
@@ -151,7 +153,7 @@ body {
 .dropdown-content a:hover {
     background-color: #898383;
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -164,7 +166,7 @@ body {
 .hero {
     position: relative;
     width: 100%;
-    height: 68vh;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -197,9 +199,10 @@ body {
 }
 
 .hero-title {
-    height: 13rem;
+    height: 4.3rem;
     width: auto;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
 }
 
 .hero-title img {
@@ -208,23 +211,23 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 10rem;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 4rem;
     text-transform: uppercase;
 }
 
 .button-primary {
     border: white 2px solid;
-    padding: 8px 8px;
-    margin-bottom: 30rem;
+    padding: 2px 2px;
+    margin-bottom: 5px;
 }
 
 .hero-button {
     text-decoration: none;
     letter-spacing: 2px;
-    padding: 4rem 5rem;
-    font-size: 3rem;
+    padding: 24px 15px;
+    font-size: 18px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -243,8 +246,8 @@ body {
 
 /*Letest News Section Styling*/
 .latest-section {
-    margin-top: 80px;
-    padding: 60px 80px;
+    margin-top: 30px;
+    padding: 10px 80px;
     color: #000;
 }
 
@@ -256,7 +259,7 @@ body {
 }
 
 .section-title {
-    font-size: 5rem;
+    font-size: 35px;
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
@@ -266,7 +269,7 @@ body {
 .view-all-links {
     text-decoration: none;
     color: black;
-    font-size: 3rem;
+    font-size: 15px;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -303,11 +306,11 @@ body {
 }
 
 .news-info {
-    padding: 50px;
+    padding: 10px;
 }
 
 .news-category {
-    font-size: 2.5rem;
+    font-size: 14px;
     font-weight: bold;
     color: #ff4655;
     /* Valorant red for the category */
@@ -316,20 +319,20 @@ body {
 }
 
 .news-date {
-    font-size: 2.5rem;
+    font-size: 14px;
     color: black;
     font-weight: bold;
 }
 
 .news-title {
-    padding-top: 25px;
-    font-size: 5rem;
+    padding-top: 5px;
+    font-size: 22px;
     font-weight: bold;
     margin: 10px 0;
 }
 
 .news-description {
-    font-size: 2rem;
+    font-size: 12px;
     color: #383838;
     line-height: 1.5;
 }
