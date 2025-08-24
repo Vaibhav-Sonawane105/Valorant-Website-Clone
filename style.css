@@ -336,3 +336,301 @@ body {
     color: #383838;
     line-height: 1.5;
 }
+
+/*Letest News Section Done*/
+
+/*SEASON 5 SECTION*/
+.season-banner {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    /* Adjust height as needed */
+    overflow: hidden;
+    color: white;
+}
+
+.background-image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    /* Aligns content to the left */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Semi-transparent overlay to make text readable */
+    z-index: 1;
+}
+
+.text-block {
+    max-width: 650px;
+    /* Limits the width of the text block */
+}
+
+.season-title {
+    font-size: 5em;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.season-subtitle {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: white;
+    line-height: 1;
+}
+
+.season-description {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.banner-button {
+    font-size: 1.1em;
+    border: none;
+    padding: 24px 22px;
+    background-color: #ff4655;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*SEASON 5 SECTION DONE*/
+
+/*We are valornat SECTION*/
+.we-are-valorant {
+    padding: 80px 0px;
+    width: 100%;
+    height: 400px;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    ;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-heading {
+    font-size: 3em;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.section-subheading {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: black;
+}
+
+.section-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: rgb(26, 26, 26);
+}
+
+.section-button {
+    align-self: flex-start;
+    /* Aligns the button to the left */
+    transition: all 0.3s ease;
+}
+
+.section-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.video-content {
+    flex: 1.5;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-video {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 8px;
+}
+
+/* We are Valorant Section Done */
+
+/*YOUR AGAENT SECTION*/
+.your-agents {
+    height: 550px;
+    padding: 80px 0px;
+}
+
+.agents-content-wrapper {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.agents-text-content {
+    flex: 1.5;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-content {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.agents-section-heading {
+    font-size: 4em;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.agents-section-subheading {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: rgb(230, 230, 230);
+}
+
+.agents-section-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: rgb(222, 222, 222);
+}
+
+.agents-btn {
+    align-self: flex-start;
+    /* Aligns the button to the left */
+    background-color: rgb(24, 24, 24);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.section-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.maps-btn:{
+    transition: all 0.3s ease; 
+}
+.maps-btn:hover {
+    color: white;
+    background-color: black;
+}
+.maps-image-content {
+    height: 550px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    margin-right: 40px;
+}
+.maps-image-content img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+}
+.mobile-compainon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: white;
+    margin-top: 15px;
+    padding: 35px 10px;
+}
+.mobile-compainon h3{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+/*Footer Styling*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.social-media{
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    gap: 20px;
+}
+.footer-icon{
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 5px 4px;
+    text-align: center;
+}
+.footer-icon i{
+    color: white;
+    font-size: 20px;
+}
+.footer-riot-logo{
+    margin-top: 10px;
+    padding: 15px;
+    height: 25px;
+}
+.footer-riot-logo img{
+    width: 100%;
+    height: 100%;
+}
+.footer-copy-write{
+    width: auto;
+    padding: 5px 20x;
+    font-size: 10px;
+    color: #757575;
+}
+/*Footer Done*/
