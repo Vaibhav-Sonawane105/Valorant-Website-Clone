@@ -556,7 +556,7 @@ body {
     color: black;
 }
 
-.maps-btn:{
+.maps-btn {
     transition: all 0.3s ease; 
 }
 .maps-btn:hover {
