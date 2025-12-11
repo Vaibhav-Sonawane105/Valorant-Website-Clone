@@ -96,11 +96,14 @@ body {
     background-color: #2b2a29;
     border-radius: 28%;
 }
+
 .menu-icon {
-    display: none; /* Hidden on desktop */
+    display: none;
+    /* Hidden on desktop */
     padding: 10px 20px;
     font-size: 20px;
 }
+
 .play-button {
     background: #e83f47;
     background: linear-gradient(107deg, rgba(232, 63, 71, 1) 0%, rgba(255, 171, 92, 1) 100%);
@@ -116,7 +119,7 @@ body {
 }
 
 .play-button:hover {
-    color: white;
+    color: pink;
 }
 
 /*Dropdown Menu Styling*/
@@ -560,12 +563,14 @@ body {
 }
 
 .maps-btn {
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
+
 .maps-btn:hover {
     color: white;
     background-color: black;
 }
+
 .maps-image-content {
     height: 550px;
     flex: 1;
@@ -573,6 +578,7 @@ body {
     overflow: hidden;
     margin-right: 40px;
 }
+
 .maps-image-content img {
     margin-bottom: 20px;
     width: 100%;
@@ -580,7 +586,8 @@ body {
     display: block;
     border-radius: 8px;
 }
-.mobile-compainon{
+
+.mobile-compainon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -589,14 +596,16 @@ body {
     margin-top: 15px;
     padding: 35px 10px;
 }
-.mobile-compainon h3{
+
+.mobile-compainon h3 {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
 }
+
 /*Footer Styling*/
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     padding: 15px 15px;
@@ -605,106 +614,131 @@ body {
     justify-content: space-evenly;
     gap: 10px;
 }
-.social-media{
+
+.social-media {
     color: white;
     padding: 10px 10px;
     display: flex;
     gap: 20px;
 }
-.footer-icon{
+
+.footer-icon {
     background-color: #282828;
     border-radius: 10px;
     padding: 5px 4px;
     text-align: center;
 }
-.footer-icon i{
+
+.footer-icon i {
     color: white;
     font-size: 20px;
 }
-.footer-riot-logo{
+
+.footer-riot-logo {
     margin-top: 10px;
     padding: 15px;
     height: 25px;
 }
-.footer-riot-logo img{
+
+.footer-riot-logo img {
     width: 100%;
     height: 100%;
 }
-.footer-copy-write{
+
+.footer-copy-write {
     width: auto;
     padding: 5px 20x;
     font-size: 10px;
     color: #757575;
 }
+
 /*Footer Done*/
 
 /*Adding Responsiveness*/
 
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
     /*Nav-bar*/
-    .navbar{
+    .navbar {
         padding: 10px 15px;
     }
-    .nav-menu{
+
+    .nav-menu {
         display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
         top: 70px;
     }
-    .nav-menu.active{
+
+    .nav-menu.active {
         display: flex;
     }
-    .menu-icon{
+
+    .menu-icon {
         display: block;
     }
-    .nav-right{
+
+    .nav-right {
         display: none;
     }
+
     /*Hero-Section*/
-    .hero-title{
+    .hero-title {
         font-size: 2rem;
     }
-    .hero-subtitle{
+
+    .hero-subtitle {
         font-size: 15px;
         padding: 10px 20px;
     }
-    .latest-section{
+
+    .latest-section {
         padding: 40px 20px;
     }
-    .section-header{
+
+    .section-header {
         flex-direction: column;
         align-items: start;
         gap: 10px;
-        
+
     }
-    .news-grid{
+
+    .news-grid {
         grid-template-columns: 1fr;
     }
-    .we-are-valorant{
+
+    .we-are-valorant {
         height: 800px;
     }
-    .content-wrapper{
+
+    .content-wrapper {
         flex-direction: column;
         gap: 30px;
         height: auto;
         padding: 40px 20px;
     }
-    .text-content, .video-content{
+
+    .text-content,
+    .video-content {
         flex: 1;
         width: 100%;
     }
-    .your-agents{
+
+    .your-agents {
         height: 1000px;
         padding: 40px 0px;
     }
-    .agents-content-wrapper{
+
+    .agents-content-wrapper {
         flex-direction: column-reverse;
         padding: 20px 20px;
         gap: 40px;
     }
-    .agents-text-content, .image-content{
+
+    .agents-text-content,
+    .image-content {
         flex: 1;
         margin-bottom: 3px;
     }
